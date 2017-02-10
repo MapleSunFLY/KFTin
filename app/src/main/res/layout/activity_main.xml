@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.heat.kf.kfzstinken.MainActivity">
+
+    <Button
+        android:id="@+id/bug_button"
+        android:onClick="bug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bug"/>
+    <Button
+        android:id="@+id/repair_button"
+        android:onClick="repair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修复"/>
+</LinearLayout>
